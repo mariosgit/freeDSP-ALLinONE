@@ -1,1 +1,288 @@
+69950410199982
+fdsp_capacitor
+CP_Elec_6.3x5.8
+SMT capacitor, aluminium electrolytic, 6.3x5.8
+
 0
+2
+2
+fdsp_capacitor
+CP_Elec_10x10.5
+SMT capacitor, aluminium electrolytic, 10x10.5
+
+0
+2
+2
+fdsp_capacitor
+C_0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+fdsp_capacitor
+C_0603_HandSoldering
+Capacitor SMD 0603, hand soldering
+capacitor 0603
+0
+2
+2
+fdsp_capacitor
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+fdsp_capacitor
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+fdsp_capacitor
+C_1206
+Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)
+capacitor 1206
+0
+2
+2
+fdsp_capacitor
+C_1206_HandSoldering
+Capacitor SMD 1206, hand soldering
+capacitor 1206
+0
+2
+2
+fdsp_capacitor
+C_3312
+
+
+0
+2
+2
+fdsp_capacitor
+C_Radial_D5_L6_P2.5
+Radial Electrolytic Capacitor Diameter 5mm x Length 6mm, Pitch 2.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D5_L11_P2
+Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D5_L11_P2.5
+Radial Electrolytic Capacitor Diameter 5mm x Length 11mm, Pitch 2.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D6.3_L11.2_P2.5
+Radial Electrolytic Capacitor, Diameter 6.3mm x Length 11.2mm, Pitch 2.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D7.5_L11.2_P2.5
+Radial Electrolytic Capacitor Diameter 7.5mm x Length 11.2mm, Pitch 2.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D8_L11.5_P3.5
+Radial Electrolytic Capacitor Diameter 8mm x Length 11.5mm, Pitch 3.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D8_L13_P3.8
+Radial Electrolytic Capacitor Diameter 8mm x Length 13mm, Pitch 3.8mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D8_L21_P3.8
+Radial Electrolytic Capacitor Diameter 8mm x Length 21mm, Pitch 3.8mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D10_L13_P5
+Radial Electrolytic Capacitor Diameter 10mm x Length 13mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D10_L16_P5
+Radial Electrolytic Capacitor 10mm x Length 16mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D10_L20_P2.5
+Radial Electrolytic Capacitor Diameter 10mm x Length 20mm, Pitch 2.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D10_L20_P2.5-5
+Electrolytic Capacitor, vertical, diameter 10mm, RM 2.5-5mm, Copper without +, radial,
+Electrolytic Capacitor, vertical, diameter 10mm, RM 2.5-5mm, Copper without +, radial,
+0
+4
+2
+fdsp_capacitor
+C_Radial_D10_L20_P5
+Radial Electrolytic Capacitor Diameter 10mm x Length 20mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D10_L20_P5-7.5
+Electrolytic Capacitor, vertical, diameter 10mm, RM 5-7.5mm, Copper without +, radial,
+Electrolytic Capacitor, vertical, diameter 10mm, RM 5-7.5mm, Copper without +, radial,
+0
+4
+2
+fdsp_capacitor
+C_Radial_D10_L20_P7.5
+Radial Electrolytic Capacitor Diameter 10mm x Length 20mm, Pitch 7.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D10_L21_P5
+Radial Electrolytic Capacitor Diameter 10mm x Length 21mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D10_L25_P5
+Radial Electrolytic Capacitor Diameter 10mm x Length 25mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D12.5_L25_P5
+Radial Electrolytic Capacitor Diameter 12.5mm x Length 25mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D13_L21_P5
+Radial Electrolytic Capacitor 13mm x Length 21mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D13_L25_P5
+Radial Electrolytic Capacitor Diameter 13mm x Length 25mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D14_L25_P5
+Radial Electrolytic Capacitor Diameter 14mm x Length 25mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D14_L31.5_P5
+Radial Electrolytic Capacitor Diameter 14mm x Length 31.5mm, Pitch 5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D16_L25_P7.5
+Radial Electrolytic Capacitor Diameter 16mm x Length 25mm, Pitch 7.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D16_L30_P7.5
+Radial Electrolytic Capacitor Diameter 16mm x Length 25mm, Pitch 7.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D16_L31.5_P7.5
+Radial Electrolytic Capacitor Diameter 16mm x Length 31.5mm, Pitch 7.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D18_L36_P7.5
+Radial Electrolytic Capacitor Diameter 18mm x Length 36mm, Pitch 7.5mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D22_L41_P10
+Radial Electrolytic Capacitor Diameter 22mm x Length 41mm, Pitch 10mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D26_L31_P10
+Radial Electrolytic Capacitor Diameter 26mm x Length 31mm, Pitch 10mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D26_L45_P10
+Radial Electrolytic Capacitor Diameter 26mm x Length 45mm, Pitch 10mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D30_L51_P10
+Radial Electrolytic Capacitor Diameter 30mm x Length 51mm, Pitch 10mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Radial_D35_L51_P10
+Radial Electrolytic Capacitor Diameter 35mm x Length 51mm, Pitch 10mm
+Electrolytic Capacitor
+0
+2
+2
+fdsp_capacitor
+C_Rect_L7.2_W7.2_P5
+Film Capacitor Length 7mm x Width 6mm
+Capacitor
+0
+2
+2
