@@ -1554,6 +1554,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 2574da33-047f-48b7-ae29-ea06ee67c22a))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR068") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "MyLibrary:C") (at 102.87 82.55 270) (unit 1)
@@ -1598,6 +1605,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 82fce29d-6948-4577-ae13-b889c59c41f7))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR069") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:GND") (at 104.14 87.63 270) (unit 1)
@@ -1616,6 +1630,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid b5c049b5-f1e5-43f6-9f11-8ddcc4c17b38))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR070") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:GND") (at 104.14 110.49 270) (unit 1)
@@ -1634,6 +1655,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 6198f5a1-335e-43ea-b68f-b8ac46c28524))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "MyLibrary:C") (at 83.82 114.3 0) (unit 1)
@@ -1704,6 +1732,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid daf3c3dc-52ca-4a0b-b61d-5aa49e4a4f52))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR072") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "MyLibrary:C") (at 214.63 111.76 0) (unit 1)
@@ -1774,6 +1809,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 825a4ac5-4472-495e-afef-5fdc14bc1280))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR073") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:+3V3") (at 91.44 110.49 0) (unit 1)
@@ -1792,6 +1834,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid f4ec9928-060d-408e-b4a6-62d10b26ae62))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:LED") (at 223.52 85.09 180) (unit 1)
@@ -1862,6 +1911,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 595d4ef1-f01b-4611-88c4-e70ff54e7a98))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR075") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:GND") (at 189.23 105.41 90) (unit 1)
@@ -1880,6 +1936,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 708a2ec8-503d-4f33-9eb0-e54e8ee1a644))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR076") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "MyLibrary:C") (at 201.93 102.87 270) (unit 1)
@@ -1924,6 +1987,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid f09eda9f-c185-4e60-91fe-4df99843fdd4))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR077") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:R") (at 195.58 113.03 270) (unit 1)
@@ -1968,6 +2038,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 54e629ab-6f38-4866-be4c-fda50446eb33))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR078") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "MyLibrary:C") (at 59.69 88.9 0) (unit 1)
@@ -2038,6 +2115,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid f5c8cfe6-ed73-4583-8b72-ad6f70b2eecf))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR079") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:+3V3") (at 59.69 85.09 0) (unit 1)
@@ -2056,6 +2140,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid ed823fea-fa57-44b8-8f09-d4a12546108a))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR080") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:R") (at 81.28 95.25 90) (unit 1)
@@ -2126,6 +2217,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 3f935baa-c796-4a61-81c5-f632b3eca047))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR081") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:R") (at 195.58 118.11 270) (unit 1)
@@ -2170,6 +2268,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 0aa5553c-29a8-4c8c-8588-ea9f17b99c2d))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR082") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:LED") (at 223.52 125.73 180) (unit 1)
@@ -2240,6 +2345,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 49832a77-829a-4cca-98fb-7b2f59a269df))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR083") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:PWR_FLAG") (at 220.726 107.442 0) (unit 1)
@@ -2283,6 +2395,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid deddc69a-a905-4307-aa82-39faa0e98e2e))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR085") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:TST") (at 49.53 99.06 0) (unit 1)
@@ -2326,6 +2445,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid a954383f-e119-403f-9616-1797ecd93395))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR086") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:GND") (at 74.93 110.49 0) (unit 1)
@@ -2344,6 +2470,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid cbfc6949-8abd-4666-bd08-f4ed2f56f70b))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR087") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:+3V3") (at 74.93 105.41 0) (unit 1)
@@ -2362,6 +2495,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 1037de47-6fdb-493c-be17-35738571ae01))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR088") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "MyLibrary:C") (at 102.87 92.71 270) (unit 1)
@@ -2406,6 +2546,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 44b4bd22-30e8-40fa-bfc2-e6804f5e67b7))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacecd"
+          (reference "#PWR089") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-rescue:CONN_01X03") (at 67.31 107.95 180) (unit 1)

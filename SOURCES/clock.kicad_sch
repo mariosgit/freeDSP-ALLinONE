@@ -757,6 +757,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid fd0a10a1-8a1e-4127-83f1-16552114f5c0))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacf57"
+          (reference "#PWR0141") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "MyLibrary:C") (at 77.47 83.058 0) (unit 1)
@@ -801,6 +808,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid fc1bd669-f3cc-4fe8-8375-d1bd74b516d8))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacf57"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "MyLibrary:C") (at 152.908 90.932 0) (unit 1)
@@ -845,6 +859,13 @@
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 9d89d717-2ddc-4e82-96b6-77f41c88c639))
+    (instances
+      (project "smd_aio"
+        (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacf57"
+          (reference "#PWR0143") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "smd_aio-lib:IDT2309NZ") (at 175.514 77.216 0) (unit 1)
