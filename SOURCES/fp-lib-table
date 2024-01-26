@@ -14,4 +14,5 @@
   (lib (name "fdsp_potentiometer")(type "KiCad")(uri "/Users/mario/DevelSelf/freeDSP-ALLinONE/LIBRARY/Footprint/fdsp_potentiometer.pretty")(options "")(descr ""))
   (lib (name "fdsp_resistor")(type "KiCad")(uri "/Users/mario/DevelSelf/freeDSP-ALLinONE/LIBRARY/Footprint/fdsp_resistor.pretty")(options "")(descr ""))
   (lib (name "fdsp_socketstrip")(type "KiCad")(uri "/Users/mario/DevelSelf/freeDSP-ALLinONE/LIBRARY/Footprint/fdsp_socketstrip.pretty")(options "")(descr ""))
+  (lib (name "AMPx2 _footprints")(type "KiCad")(uri "${KIPRJMOD}/Library_AMPx2/MyFootprints.pretty")(options "")(descr ""))
 )
