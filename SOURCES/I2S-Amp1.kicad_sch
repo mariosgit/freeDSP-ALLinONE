@@ -1476,8 +1476,8 @@
     (property "Mfr.Nr." "GRM188R71H104KA93D" (at 179.07 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "2" (uuid c0c0a04d-2246-4dc3-bc12-b64fe6b04a54))
     (pin "1" (uuid c94b2be1-4d02-4907-8974-7bbe7bae446f))
+    (pin "2" (uuid c0c0a04d-2246-4dc3-bc12-b64fe6b04a54))
     (instances
       (project "smd_aio"
         (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005af9ff80"
@@ -2123,8 +2123,8 @@
     (property "Dielectric" "X7R" (at 181.61 60.96 90)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "2" (uuid 285964ab-c502-4ab0-9326-90e6ab6e68ee))
     (pin "1" (uuid d43225ff-fb0f-456f-8f38-b6d3cab5fd44))
+    (pin "2" (uuid 285964ab-c502-4ab0-9326-90e6ab6e68ee))
     (instances
       (project "smd_aio"
         (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005af9ff80"

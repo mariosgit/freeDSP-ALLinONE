@@ -1548,8 +1548,8 @@
     (property "Datasheet" "" (at 64.77 81.788 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "2" (uuid 63f48f91-7c67-4889-9c43-853353526d50))
     (pin "1" (uuid 08272049-7b22-47ca-a77f-779d3cd2f5ce))
+    (pin "2" (uuid 63f48f91-7c67-4889-9c43-853353526d50))
     (instances
       (project "smd_aio"
         (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacf29"
@@ -2316,8 +2316,8 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (at 148.59 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 777c743f-9d29-410b-942e-6df692c44969))
     (pin "1" (uuid 8f0cca36-4094-43e9-8d50-6f95f715f954))
+    (pin "2" (uuid 777c743f-9d29-410b-942e-6df692c44969))
     (pin "3" (uuid 39231215-469f-4339-bd92-db701fb36ca1))
     (instances
       (project "smd_aio"
@@ -2343,9 +2343,9 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (at 106.68 132.842 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 119bab2c-18b1-43fb-8876-3a7d9ab7a9bd))
-    (pin "2" (uuid c2315c67-5c8e-4273-9e0a-ac440d56004f))
     (pin "1" (uuid a521bba3-e127-4609-b6ef-940546116860))
+    (pin "2" (uuid c2315c67-5c8e-4273-9e0a-ac440d56004f))
+    (pin "3" (uuid 119bab2c-18b1-43fb-8876-3a7d9ab7a9bd))
     (instances
       (project "smd_aio"
         (path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacf29"
