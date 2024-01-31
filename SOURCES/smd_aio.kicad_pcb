@@ -4781,7 +4781,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 29e5f4e0-4c61-46a1-be17-b1dddf29e80a)
     )
-    (fp_text value "BLM18PG471SN1" (at 0 1.9) (layer "F.Fab")
+    (fp_text value "BLM18SG700TZ1D" (at 0 1.9) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d0f1b4eb-0b31-4cd4-a1ed-31b54607b9ef)
     )
