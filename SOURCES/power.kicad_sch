@@ -1446,6 +1446,10 @@
     (uuid 77c0606d-8b69-4879-8e98-55f2fc00c7a4)
   )
 
+  (label "reg-sw" (at 200.66 85.09 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 7dea1a11-906c-4287-87ff-2e4fdcf62587)
+  )
   (label "lm-fb" (at 205.74 92.71 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid c89e1e21-5646-4499-9455-7ddfd1ab6089)

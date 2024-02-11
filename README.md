@@ -5,7 +5,9 @@ Upgrade of the [freeDSP Classic SMD-B](https://github.com/freeDSP/freeDSP-CLASSI
 
 LICENCE: Creative Commons Attribution Share-Alike 4.0 license
 
-http://freedsp.cc
+https://freedsp.github.io/
+
+[Mouser BOM](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=5c5f7288d7)
 
 ## mb/improvements branch
 
