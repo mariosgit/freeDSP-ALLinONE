@@ -72,31 +72,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "smd_aio.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": -2806,
-          "pos_y": -264,
-          "size_x": 2109,
-          "size_y": 1340
-        }
-      },
-      {
-        "name": "smd_aio.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": -2889,
-          "pos_y": -196,
-          "size_x": 2042,
-          "size_y": 1284
-        }
-      }
-    ]
+    "files": []
   }
 }
