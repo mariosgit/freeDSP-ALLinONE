@@ -7082,12 +7082,6 @@
 		(uuid "c99321b5-aeff-477f-b785-b9c405a86f71")
 	)
 	(junction
-		(at 143.256 144.272)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb513e1f-ed18-4338-add1-276403c1c864")
-	)
-	(junction
 		(at 39.116 212.598)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8873,16 +8867,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.256 144.272) (xy 151.638 144.272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65ee9023-6727-4d8a-897b-5240a3521f3a")
-	)
-	(wire
-		(pts
 			(xy 164.084 103.886) (xy 168.148 103.886)
 		)
 		(stroke
@@ -9413,7 +9397,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.414 144.272) (xy 143.256 144.272)
+			(xy 137.414 144.272) (xy 151.638 144.272)
 		)
 		(stroke
 			(width 0)
@@ -15448,73 +15432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "smd_aio-rescue:D_Schottky")
-		(at 143.256 140.462 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005afb9ac0")
-		(property "Reference" "D2"
-			(at 145.796 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B150"
-			(at 140.716 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fdsp_diode:SMA"
-			(at 143.256 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.256 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.256 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80793e95-521d-4b46-bd66-bfb7c5882388")
-		)
-		(pin "2"
-			(uuid "0e618ef7-a1cb-48a2-9d3b-fc34dfc0a05f")
-		)
-		(instances
-			(project "smd_aio"
-				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "smd_aio-rescue:PWR_FLAG")
 		(at 151.638 144.272 0)
 		(unit 1)
@@ -18104,69 +18021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "smd_aio-rescue:VCC")
-		(at 143.256 135.636 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b2d3c23")
-		(property "Reference" "#PWR039"
-			(at 143.256 139.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 143.256 131.826 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.256 135.636 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.256 135.636 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 143.256 135.636 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "938918c5-060b-48ad-9963-64830f79c6c3")
-		)
-		(instances
-			(project "smd_aio"
-				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "smd_aio-rescue:CONN_02X04")
 		(at 262.89 150.495 0)
 		(unit 1)
@@ -19391,7 +19245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VIN"
 			(at 88.9 191.77 0)
 			(effects
 				(font

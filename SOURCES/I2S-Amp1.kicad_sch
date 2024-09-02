@@ -4829,7 +4829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VIN"
 			(at 207.01 86.36 0)
 			(effects
 				(font
@@ -6996,7 +6996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VIN"
 			(at 207.01 45.72 0)
 			(effects
 				(font

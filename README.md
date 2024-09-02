@@ -17,6 +17,8 @@ https://freedsp.github.io/
  * 5V Arduino port was removed, use a 3.3 V device, i2C on the freedsp and adau headers.
  * Added a MCP23008 to read status and provide mute and spdif switching control. Can be left out.
  * I had problems with the ADAU onboard voltage regulator, replaced it with a linear regulator. (dropout is 1.2V should be ok to run @ 3.3V) Anyway increased the switched reg to 5V and the 3.3V line runs on another 1117.
+ * Ferritbead before the AMP chips is wrong, AMPs are now powered by VIN.
+ * Removed Power input from USBi port.
 
 ##### CanDo ?
 
