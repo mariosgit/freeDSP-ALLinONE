@@ -13,6 +13,151 @@
 		(comment 2 "Hauptseminar Kommunikationsnetze")
 	)
 	(lib_symbols
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MyLibrary:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2805,6 +2950,12 @@
 		(uuid "45835699-6854-4e67-b060-8c17f2cf70af")
 	)
 	(junction
+		(at 114.3 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cef42b3-3f68-4b2a-820e-d2d4be68e6ac")
+	)
+	(junction
 		(at 229.87 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2952,6 +3103,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 55.88) (xy 104.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05595b0e-59d8-4183-a486-351a05f5df89")
+	)
+	(wire
+		(pts
 			(xy 77.47 85.09) (xy 82.042 85.09)
 		)
 		(stroke
@@ -3052,6 +3213,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdceef7-e3fe-4027-a3f3-4405c1198fd4")
+	)
+	(wire
+		(pts
 			(xy 51.562 85.09) (xy 53.34 85.09)
 		)
 		(stroke
@@ -3132,6 +3303,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 59.69) (xy 132.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fdce21-60dd-4bb5-94ac-f14bf00c4a7c")
+	)
+	(wire
+		(pts
 			(xy 212.852 92.71) (xy 182.88 92.71)
 		)
 		(stroke
@@ -3202,6 +3383,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 55.88) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d7527e-1172-4319-8a44-c6782e1d70b0")
+	)
+	(wire
+		(pts
 			(xy 200.66 104.14) (xy 223.012 104.14)
 		)
 		(stroke
@@ -3239,6 +3430,16 @@
 			(type default)
 		)
 		(uuid "5c3cd6fe-419b-4c62-84bf-f0bebdd7f4f9")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9dc147-dd99-417f-ac9f-8b2226953264")
 	)
 	(wire
 		(pts
@@ -3362,6 +3563,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 54.61) (xy 99.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949ff0c7-f16f-4d27-b2f7-f581d7319c62")
+	)
+	(wire
+		(pts
 			(xy 135.89 97.79) (xy 135.89 104.14)
 		)
 		(stroke
@@ -3369,6 +3580,16 @@
 			(type default)
 		)
 		(uuid "95c498cd-e3c9-44dc-8b82-0afbb9c46010")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ab0b7c-ca57-4b66-a5c2-c1f5a04e65ca")
 	)
 	(wire
 		(pts
@@ -3722,6 +3943,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 59.69) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5723e49-9494-4e09-8577-73c495b13f7e")
+	)
+	(wire
+		(pts
 			(xy 237.49 95.25) (xy 237.49 104.14)
 		)
 		(stroke
@@ -3792,6 +4023,50 @@
 			(justify left bottom)
 		)
 		(uuid "c89e1e21-5646-4499-9455-7ddfd1ab6089")
+	)
+	(global_label "VIN1"
+		(shape input)
+		(at 116.84 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "12c21659-109d-4d0f-ac88-eb457bb43726")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.7168 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN2"
+		(shape input)
+		(at 139.7 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "612628ab-8c26-4655-92b1-d05d8d63da86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.5768 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "smd_aio-rescue:LM284x")
@@ -5910,6 +6185,137 @@
 		)
 	)
 	(symbol
+		(lib_id "smd_aio-rescue:VIN")
+		(at 96.52 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d153307-9095-48d5-bce0-cf77ee410292")
+		(property "Reference" "#PWR039"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 96.52 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ced5267c-f59b-4715-b09b-ab2f04d80592")
+		)
+		(instances
+			(project "smd_aio"
+				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacf29"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 109.22 55.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9513084d-39e3-4612-bde2-a712964cd02c")
+		(property "Reference" "JP1"
+			(at 109.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "JumperWires:Jumper-Wire_25mm_Blue"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28f58f3f-206e-40f2-98e3-0b667a5e7641")
+		)
+		(pin "2"
+			(uuid "35de8c76-5c94-41a3-92d9-c972ea508647")
+		)
+		(instances
+			(project ""
+				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacf29"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:LM1117MP-3.3")
 		(at 148.59 132.08 0)
 		(unit 1)
@@ -6175,6 +6581,74 @@
 			(project "smd_aio"
 				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacf29"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 119.38 63.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac968ee4-d450-4a09-bc30-e0ed574832c1")
+		(property "Reference" "JP2"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "JumperWires:Jumper-Wire_25mm_Blue"
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ceba1a0-8dfa-46ce-b88b-5be5b090d7dc")
+		)
+		(pin "2"
+			(uuid "3db2b3a6-e587-4cc2-9874-e64c698f2661")
+		)
+		(instances
+			(project "smd_aio"
+				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005afacf29"
+					(reference "JP2")
 					(unit 1)
 				)
 			)

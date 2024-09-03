@@ -19,10 +19,14 @@ https://freedsp.github.io/
  * I had problems with the ADAU onboard voltage regulator, replaced it with a linear regulator. (dropout is 1.2V should be ok to run @ 3.3V) Anyway increased the switched reg to 5V and the 3.3V line runs on another 1117.
  * Ferritbead before the AMP chips is wrong, AMPs are now powered by VIN.
  * Removed Power input from USBi port.
+ * JumperWire and solder enforceable power traces between amps and power terminal
+ * break out gain config pins - add 1k resistors r49 r50 as needed.
 
 ##### CanDo ?
 
  * Replace CS8422 QFPpamp / Outdated. But it's the only one with integrated SRC :( 
+ * Replace 1206 parts with std 603 parts.
+ * Use a power management chipo for mute ?
 
 ## About
 

@@ -1885,102 +1885,6 @@
 				)
 			)
 		)
-		(symbol "smd_aio-rescue:VCC"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 190.5 68.58)
@@ -2035,12 +1939,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a5fe632-e3e7-4221-a99d-78f912d0d46d")
-	)
-	(junction
-		(at 125.73 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60e3c00e-4bfc-4d60-a658-00bb0422024e")
 	)
 	(junction
 		(at 190.5 76.2)
@@ -2299,6 +2197,16 @@
 			(type default)
 		)
 		(uuid "172ef89c-f3a8-4e35-901d-d5ad83ae8b2e")
+	)
+	(wire
+		(pts
+			(xy 100.33 80.01) (xy 100.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1738a3a6-d271-426d-977a-ba8adc2251e5")
 	)
 	(wire
 		(pts
@@ -2742,17 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 128.27 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ec3442b-7b5e-460c-9366-362d81c5a17e")
-	)
-	(wire
-		(pts
-			(xy 100.33 80.01) (xy 86.36 80.01)
+			(xy 86.36 80.01) (xy 100.33 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2952,16 +2850,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 73.66) (xy 125.73 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c49e7d5a-9bf9-479a-8baa-4d5c3fdde226")
-	)
-	(wire
-		(pts
 			(xy 237.49 80.01) (xy 241.3 80.01)
 		)
 		(stroke
@@ -3062,16 +2950,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 71.12) (xy 125.73 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d697a286-8951-42e0-951f-0ccebadac425")
-	)
-	(wire
-		(pts
 			(xy 124.46 63.5) (xy 125.73 63.5)
 		)
 		(stroke
@@ -3082,16 +2960,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 80.01) (xy 100.33 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9f60177-2217-42c2-9109-bed66be44696")
-	)
-	(wire
-		(pts
 			(xy 163.83 86.36) (xy 166.37 86.36)
 		)
 		(stroke
@@ -3099,6 +2967,26 @@
 			(type default)
 		)
 		(uuid "daf58a54-22fa-4f5a-845c-e2c214fdc081")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7174da-978f-4d9e-993e-474a6a2bcc12")
+	)
+	(wire
+		(pts
+			(xy 125.73 71.12) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3130c3-3db4-49f7-88f5-b37b9447e76e")
 	)
 	(wire
 		(pts
@@ -3282,16 +3170,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 125.73 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc42d34d-c94e-4106-956a-79683b6652f6")
-	)
-	(wire
-		(pts
 			(xy 190.5 63.5) (xy 214.63 63.5)
 		)
 		(stroke
@@ -3387,7 +3265,7 @@
 		(uuid "9a23748e-8b87-4bc4-8c08-c704576bb47b")
 	)
 	(label "SPK_SLEEP"
-		(at 106.68 76.2 0)
+		(at 87.63 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3483,6 +3361,28 @@
 			)
 		)
 	)
+	(global_label "SPK_GAIN0"
+		(shape input)
+		(at 125.73 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "2d91e4aa-ef07-4503-ae9f-aed47f2e77ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.6687 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCLK5"
 		(shape input)
 		(at 102.87 92.202 270)
@@ -3499,6 +3399,50 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_GAIN1"
+		(shape input)
+		(at 125.73 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "a089477e-d95d-4d39-baaf-6a0188d0bcf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.6687 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN1"
+		(shape input)
+		(at 203.2 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "aec7b8f7-5c2a-4222-bfee-90445186b58d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.0768 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3605,6 +3549,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN"
+		(shape input)
+		(at 203.2 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "fb25ab54-5ef2-4be2-905e-f5e3b2a8b102")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.6254 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5436,69 +5402,6 @@
 		)
 	)
 	(symbol
-		(lib_id "smd_aio-rescue:VCC")
-		(at 203.2 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000057556275")
-		(property "Reference" "#PWR0134"
-			(at 199.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 207.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e04d6f0-3e85-4030-8c55-9b6798409b8e")
-		)
-		(instances
-			(project "smd_aio"
-				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005b04b659"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "smd_aio-rescue:CONN_01X02")
 		(at 264.16 58.42 180)
 		(unit 1)
@@ -6513,69 +6416,6 @@
 	)
 	(symbol
 		(lib_id "smd_aio-rescue:GND")
-		(at 124.46 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b067d26")
-		(property "Reference" "#PWR0128"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2194c6c0-a8dd-4ea7-a823-08e94e62bea2")
-		)
-		(instances
-			(project "smd_aio"
-				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005b04b659"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "smd_aio-rescue:GND")
 		(at 124.46 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6632,69 +6472,6 @@
 			(project "smd_aio"
 				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005b04b659"
 					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "smd_aio-rescue:VCC")
-		(at 203.2 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b067d2c")
-		(property "Reference" "#PWR0130"
-			(at 199.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec096e7d-9553-40c3-9ec3-cb349f19d4be")
-		)
-		(instances
-			(project "smd_aio"
-				(path "/4c49a07c-9ad4-4758-901a-e68e360dc17d/00000000-0000-0000-0000-00005b04b659"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
