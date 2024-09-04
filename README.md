@@ -26,7 +26,12 @@ https://freedsp.github.io/
 
  * Replace CS8422 QFPpamp / Outdated. But it's the only one with integrated SRC :( 
  * Replace 1206 parts with std 603 parts.
- * Use a power management chipo for mute ?
+ * Use a power management/supervisor chipo for mute ? 
+   * TPS3840PH49DBVR ? ActHigh not adjustable, max 12v
+   * TL7700 - active low
+   * TPS38 - availables are active low.
+   * TL7733 - max 20V, act low+high
+   * aaahhh
 
 ## About
 
