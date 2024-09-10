@@ -543,7 +543,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "+3V3",
+        "netclass": "VCC",
         "pattern": "+12V"
       },
       {
@@ -551,7 +551,7 @@
         "pattern": "+5V"
       },
       {
-        "netclass": "+3V3",
+        "netclass": "VCC",
         "pattern": "VIN"
       },
       {
@@ -1357,6 +1357,10 @@
       {
         "netclass": "VCC",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "VCC",
+        "pattern": "Net-(D6-K)"
       }
     ]
   },

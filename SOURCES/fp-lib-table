@@ -15,4 +15,5 @@
   (lib (name "fdsp_resistor")(type "KiCad")(uri "${KIPRJMOD}/../LIBRARY/Footprint/fdsp_resistor.pretty")(options "")(descr ""))
   (lib (name "fdsp_socketstrip")(type "KiCad")(uri "${KIPRJMOD}/../LIBRARY/Footprint/fdsp_socketstrip.pretty")(options "")(descr ""))
   (lib (name "AMPx2 _footprints")(type "KiCad")(uri "${KIPRJMOD}/Library_AMPx2/MyFootprints.pretty")(options "")(descr ""))
+  (lib (name "JumperWires")(type "KiCad")(uri "${KIPRJMOD}/Library_JumperWires")(options "")(descr ""))
 )
