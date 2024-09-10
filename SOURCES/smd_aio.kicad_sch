@@ -14909,7 +14909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fdsp_capacitor:C_Radial_D5_L11_P2"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 78.486 31.4452 0)
 			(effects
 				(font
